@@ -1,0 +1,15 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>社内掲示板</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+</head>
+<body>
+    <h1>社内掲示板</h1>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
